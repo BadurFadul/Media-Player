@@ -10,4 +10,13 @@ namespace MediaPlayer.src.MediaPlayer;
         {
             _mediaService = mediaservice;
         }
+         public void DeleteFileById(int id)
+        {
+            _mediaService.DeleteFileById(id);
+        }
+
+        public void GetAllFiles()
+        {
+            _mediaService.GetAllFiles();
+        }
     }

@@ -13,4 +13,8 @@ namespace MediaPlayer.src.MediaPlayer;
         //void LoadPlaylist(Playlist playlist);
         void Shuffle();
         void Repeat();
+         void CreateNewFile(string fileName, string filePath, TimeSpan duration);
+        void DeleteFileById(int fileId);
+        void GetAllFiles();
+        void GetFileById(int fileId);
     }

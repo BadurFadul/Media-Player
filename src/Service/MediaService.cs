@@ -10,6 +10,26 @@ namespace MediaPlayer.src.MediaPlayer;
             _mediaRepository = mediaRepository;
         }
 
+    public void CreateNewFile(string fileName, string filePath, TimeSpan duration)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void DeleteFileById(int fileId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void GetAllFiles()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void GetFileById(int fileId)
+    {
+        throw new NotImplementedException();
+    }
+
     public void Next()
     {
         throw new NotImplementedException();
